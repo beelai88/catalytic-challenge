@@ -1,0 +1,37 @@
+.nav-wrapper {
+  height: 10vh;
+  background-color: #51556C;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 25%;
+  display: inline-block;
+  background-color: #474A63;
+  height: 100%;
+}
+
+.navbar-items {
+  width: 75%;
+  display: inline;
+  padding-left: 2%;
+}
+
+.navbar-item {
+  padding: 15px;
+}
+
+.navbar-item a {
+  color: #898D93;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.navbar-item a:hover {
+  text-decoration: none;
+  color: #EDF0F4;
+}
+
+#pushbot-peeker {
+  height: 100%;
+}
