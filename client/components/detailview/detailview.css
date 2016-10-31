@@ -1,0 +1,7 @@
+.detailview-wrapper {
+  width: 75%;
+  float: right;
+  background-color: #EDF0F4;
+  height: 90vh;
+  overflow: auto;
+}
