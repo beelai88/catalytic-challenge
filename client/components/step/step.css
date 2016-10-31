@@ -1,0 +1,41 @@
+.step-box {
+  border: solid #E6E6E6 1px;
+  height: 80px;
+  display: flex;
+  justify-content: center; 
+  align-items: center
+}
+
+.step-box:hover {
+  background-color: #F6F6F7;
+}
+
+.step-number {
+  padding-right: 10px;
+  height: 100%;
+  float: left;
+  width: 20%;
+  display: flex;
+  justify-content: center; 
+  align-items: center
+}
+
+.step-number h3 {
+  font-family: Helvetica, sans-serif;
+  color: #E6E6E6;
+}
+
+.step-number h5 {
+  font-family: Helvetica, sans-serif;
+  color: #E6E6E6;
+}
+
+.step-info {
+  height: 100%;
+  width: 80%;
+  float: right;
+}
+.step-info h4 {
+  font-family: Helvetica, sans-serif;
+  color: #51556C;
+}

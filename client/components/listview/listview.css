@@ -1,5 +1,23 @@
 .listview-wrapper {
   width: 25%;
-  border: solid black 1px;
   float: left;
+  overflow: auto;
+  height: 100vh;
+}
+
+.title-box {
+  background-color: #59D7D4; 
+  height: 5vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.title-box span {
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+.active {
+  background-color: #F6F6F7;
 }

@@ -1,0 +1,33 @@
+.user-tile {
+  display: inline-block;
+  padding: 15px;
+}
+
+.user-tile:hover {
+  background-color: #EEF9F9;
+  border: 1px solid #5BDBD8;
+  border-radius: 5px;
+}
+
+.user-icon {
+  height: 10vh;
+  border-radius: 36px;
+}
+
+.user-username {
+  text-align: center;
+  padding-top: 10px;
+  font-family: Helvetica, sans-serif;
+  color: #51556C;
+}
+
+.active-user {
+  background-color: #EEF9F9;
+  border: 1px solid #5BDBD8;
+  border-radius: 5px;
+}
+
+.inactive-user {
+  background-color: white;
+  border: none;
+}

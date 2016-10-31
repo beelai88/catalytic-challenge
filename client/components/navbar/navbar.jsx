@@ -13,6 +13,7 @@ class Navbar extends Component {
       <div className="nav-wrapper">
         <div className="logo">
           <img id="pushbot-peeker" src="/images/pushbot-peeker.png"/>
+          <span>PUSHBOT</span>
         </div>
         <div className="navbar-items">
           <span className="navbar-item"><a className="navbar-link">TASKS</a></span>

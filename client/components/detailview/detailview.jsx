@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import ProcessDetail from '../processdetail/processdetail.jsx';
+import StepDetail from '../stepdetail/stepdetail.jsx';
 
 import './detailview.css';
 
@@ -11,11 +12,8 @@ class Detailview extends Component {
   render() {
     return (
       <div className="detailview-wrapper">
-        I'm the detail block on the right. 
-        Process: 
-        { this.props.process.map((process, i) => (
-          <div key={i}>{process.displayName}</div>
-        ))}
+        <ProcessDetail {...this.props}></ProcessDetail>
+        <StepDetail {...this.props}></StepDetail>
       </div>
     )
   }

@@ -5,7 +5,7 @@ module.exports = {
   devtool: 'source-map',
   entry: [
     'webpack-hot-middleware/client',
-    './client/codingchallenge.jsx'
+    './client/index.jsx'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -18,13 +18,11 @@ module.exports = {
   ],
   module: {
     loaders: [
-    // js
     {
       test: /\.js|jsx$/,
       loaders: ['babel'],
       include: path.join(__dirname, 'client')
     },
-    // CSS
     { 
       test: /\.css/, 
       loaders: ['style', 'css'],

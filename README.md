@@ -1,3 +1,9 @@
+# To get started:
+
+1.  `git clone` this repo and cd into the folder
+2.  `npm install`
+3.  `npm start` and navigate to `http://localhost:7770`
+
 # Coding Challenge (Front End)
 
 ## Expectations
